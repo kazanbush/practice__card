@@ -1,0 +1,79 @@
+html, body {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.card__wrap {
+    width: 319px;
+   min-height: 478px;
+    padding-bottom: 24px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.13)
+}
+
+.card__wrap-img {
+  width: 319px;
+  padding-bottom: 18px;
+}
+
+.image {
+width: 319px;
+}
+
+.card__desc {
+    padding-right: 33px;
+    padding-left: 33px;
+}
+
+.card__desc-title {
+color: black;
+font-size: 18px;
+font-family: 'Caveat', cursive;
+font-family: 'El Messiri', sans-serif;
+font-family: 'Roboto', sans-serif; 
+font-weight: 700;
+}
+
+.card__desc-text {
+color: black;
+font-size: 12px;
+font-family: 'Caveat', cursive;
+font-family: 'El Messiri', sans-serif;
+font-family: 'Roboto', sans-serif; 
+font-weight: 300;
+line-height: 130%;
+padding-bottom: 12px;
+}
+
+.card__desc-purchase {
+display: flex;
+justify-content: space-between;
+text-align: center;
+}
+
+.purchase__cost {
+color: black;
+font-size: 18px;
+font-family: 'Caveat', cursive;
+font-family: 'El Messiri', sans-serif;
+font-family: 'Roboto', sans-serif; 
+font-weight: 700;
+}
+
+.btn{
+border: none;
+border-radius: 50px;
+background-color: #FFBF42;
+color: black;
+font-weight: 700;
+font-size: 14px;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-right: 16px;
+padding-left: 16px;
+}
+
+
+
